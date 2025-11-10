@@ -1,0 +1,44 @@
+# Virtual environment
+venv/
+.env
+.env.*
+*.env
+
+# Python cache and build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+build/
+dist/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs and runtime files
+*.log
+logs/
+*.jsonl
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Coverage / testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Docker
+*.pid
+*.sock
+
+# Local config
+src/data/config.json
